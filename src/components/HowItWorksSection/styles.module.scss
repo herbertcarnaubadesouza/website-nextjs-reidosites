@@ -1,0 +1,88 @@
+.HowItWorksSection {
+  color: #fff;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-top: 82px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+
+  h2 {
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    max-width: 520px;
+    margin-inline: auto;
+  }
+
+  span {
+    color: #9400d3;
+  }
+}
+
+.secondBlock {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  justify-content: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.row {
+  display: flex;
+  margin-inline: auto;
+  gap: 36px;
+}
+
+.containerIcon {
+  max-width: 325px;
+  text-align: center;
+  background: rgba(90, 11, 152, 0.2);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding-inline: 22px;
+  padding-top: 15px;
+  padding-bottom: 48px;
+
+  svg {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  h4 {
+    margin-top: 11px;
+    margin-bottom: 27px;
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 168px;
+    margin-inline: auto;
+  }
+
+  p {
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  &:hover {
+    transform: scale(1.1, 1.1) translateY(-2%);
+    box-shadow: 0px 15px 30px 5px #00000040;
+    transition: all 0.8s;
+  }
+
+  &:not(:hover) {
+    transform: scale(1, 1) translateY(0);
+    box-shadow: none;
+    transition: all 0.8s;
+  }
+}
