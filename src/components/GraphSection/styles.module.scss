@@ -77,9 +77,9 @@
       box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
       border-radius: 26px;
       font-size: 20px;
-      margin-inline: 41px;
       padding: 15px;
-      width: 332px;
+      min-height: 144px;
+      max-width: 332px;
       &::marker {
         font-size: 0px;
       }
@@ -96,6 +96,10 @@
 
 .leftSide {
   max-width: 607px;
+
+  @media only screen and (max-width: 768px) {
+    margin-inline: auto;
+  }
 }
 
 .rightSide {
@@ -134,91 +138,6 @@
   position: absolute;
   z-index: -1;
   background: linear-gradient(#110023, #9f09e5);
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
-}
-
-.firstCircle {
-  display: none;
-  background: #9400d3;
-  border-style: none;
-  border-radius: 158px;
-  left: 48.5%;
-  top: 523px;
-  z-index: 226;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
-}
-
-.firstSecond {
-  display: none;
-  background: #9400d3;
-  border-style: none;
-  border-radius: 158px;
-  left: 48.5%;
-  top: 700px;
-  z-index: 226;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
-}
-.firstThird {
-  display: none;
-  background: #9400d3;
-  border-style: none;
-  border-radius: 158px;
-  left: 48.5%;
-  top: 895px;
-  z-index: 226;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
-}
-
-.firstFourth {
-  display: none;
-  background: #9400d3;
-  border-style: none;
-  border-radius: 158px;
-  left: 48.5%;
-  top: 1088px;
-  z-index: 226;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
-}
-
-.firstFith {
-  display: none;
-  background: #9400d3;
-  border-style: none;
-  border-radius: 158px;
-  left: 48.5%;
-  top: 133px;
-  z-index: 226;
-  width: 15px;
-  height: 15px;
-  z-index: 20;
-  position: absolute;
 
   @media only screen and (max-width: 768px) {
     display: block;

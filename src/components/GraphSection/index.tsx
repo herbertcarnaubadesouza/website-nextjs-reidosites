@@ -38,9 +38,6 @@ export default function GraphSection() {
           <GraphMobileAnimation />
         </div>
         <div className={styles.mobileYLine}></div>
-        <div className={styles.firstSecond}></div>
-        <div className={styles.firstThird}></div>
-        <div className={styles.firstFourth}></div>
       </section>
     </>
   );
