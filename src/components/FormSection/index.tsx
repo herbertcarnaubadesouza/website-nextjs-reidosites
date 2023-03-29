@@ -110,7 +110,7 @@ export default function FormSection() {
                 </select>
               </div>
               <div className={styles.inputGroup}>
-                <select id="segmento" name="segmento">
+                <select id="faturamento" name="faturamento">
                   <option value="">
                     Qual é o faturamento mensal da sua empresa?
                   </option>

@@ -9,6 +9,14 @@
   }
 }
 
+.descriptionBlock {
+  @media only screen and (max-width: 768px) {
+    max-width: 357px;
+    margin-inline: auto;
+    padding-inline: 27px;
+  }
+}
+
 .footerSection {
   display: flex;
   justify-content: center;
@@ -51,15 +59,20 @@
 .lastBlock {
   background: #000;
   margin-top: 55px;
+
+  @media only screen and (max-width: 768px) {
+    padding-bottom: 40px;
+  }
 }
 
 .footerLastBlockContent {
+  display: flex;
+
   max-width: 1440px;
   padding-inline: 81px;
   margin-inline: auto;
   color: #fff;
   font-family: var(--ff-primary);
-  display: flex;
   justify-content: space-between;
   align-items: center;
   .logo {
@@ -75,5 +88,22 @@
     img {
       cursor: pointer;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+    .rightSide {
+      gap: 19px;
+    }
+  }
+}
+
+.topArrow {
+  @media only screen and (max-width: 768px) {
+    width: 40px;
+    object-fit: cover;
   }
 }

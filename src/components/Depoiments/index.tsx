@@ -113,6 +113,18 @@ export default function Depoiments() {
             onClick={nextTestimonial}
           ></img>
         </div>
+        <div className={styles.arrowsMobile}>
+          <img
+            className={`${styles.arrow} ${styles.leftArrow}`}
+            src="/images/ArrowSection.png"
+            onClick={previousTestimonial}
+          ></img>
+          <img
+            className={`${styles.arrow} ${styles.rightArrow}`}
+            src="/images/ArrowSectionRight.png"
+            onClick={nextTestimonial}
+          ></img>
+        </div>
       </div>
     </section>
   );

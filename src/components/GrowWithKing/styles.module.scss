@@ -6,10 +6,6 @@
   padding-inline: 230px;
   padding-block: 100px;
 
-  @media only screen and (min-width: 1440px) {
-    padding-inline: 100px;
-  }
-
   button {
     margin-inline: auto;
     display: flex;
@@ -26,12 +22,31 @@
     font-family: var(--ff-primary);
     margin-top: 48px;
   }
+
+  @media only screen and (min-width: 1440px) {
+    padding-inline: 100px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 0px;
+    padding-block: 44px;
+  }
+
+  button {
+    font-size: 14px;
+    padding-inline: 20px;
+    min-width: 270px;
+  }
 }
 
 .containerText {
   display: flex;
   gap: 72px;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .leftSide {
@@ -72,6 +87,31 @@
       margin: 0px;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    gap: 11px;
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      max-width: 310px;
+      margin-inline: auto;
+    }
+
+    p,
+    li {
+      font-size: 20px;
+      max-width: 349px;
+      margin-inline: auto;
+    }
+
+    ul {
+      padding-left: 30px;
+    }
+
+    li {
+      max-width: 241px;
+    }
+  }
 }
 
 .accordion {
@@ -103,4 +143,10 @@
 .content {
   padding: 1rem;
   transition: all 1s ease-in-out;
+}
+
+.title {
+  @media only screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 }

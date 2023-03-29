@@ -1,11 +1,15 @@
 // import required modules
 import CheckAnimation from "../LottieAnimation/CheckAnimation";
+import CheckAnimationMobile from "../LottieAnimation/CheckAnimationMobile";
 import styles from "./styles.module.scss";
 
 export default function CancelSection() {
   return (
     <section className={styles.cancelSection}>
       <div className={styles.leftSide}>
+        <div className={styles.rightSideMobile}>
+          <CheckAnimationMobile />
+        </div>
         <h3>
           Cancele <span>quando quiser!</span>
         </h3>
@@ -18,7 +22,7 @@ export default function CancelSection() {
         </p>
       </div>
       <div className={styles.rightSide}>
-        <CheckAnimation></CheckAnimation>
+        <CheckAnimation />
       </div>
     </section>
   );

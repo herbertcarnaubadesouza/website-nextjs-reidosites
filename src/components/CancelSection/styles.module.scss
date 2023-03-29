@@ -4,6 +4,16 @@
   margin-inline: auto;
   font-family: var(--ff-primary);
   padding-inline: 100px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-inline: 40px;
+
+    h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
 }
 
 .cancelSection {
@@ -41,8 +51,39 @@
   span {
     color: #9400d3;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 18px;
+    padding-bottom: 40px;
+    gap: 10px;
+    p {
+      font-size: 20px;
+      max-width: 349px;
+      margin-inline: auto;
+      text-align: center;
+    }
+  }
 }
 
 .rightSide {
   opacity: 25%;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.rightSideMobile {
+  display: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+    margin-inline: auto;
+    opacity: 20%;
+    svg {
+      width: 100px !important;
+      height: 100px !important;
+      margin-inline: auto;
+    }
+  }
 }

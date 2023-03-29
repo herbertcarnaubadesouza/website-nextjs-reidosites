@@ -9,6 +9,7 @@ import GrowWithKing from "@/components/GrowWithKing";
 import Header from "@/components/Header";
 import HeadLine from "@/components/HeadLine";
 import HowItWorksSection from "@/components/HowItWorksSection";
+import WhatsApp from "@/components/WhatsApp";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <AlertSection></AlertSection>
       <CancelSection></CancelSection>
       <Footer></Footer>
+      <WhatsApp></WhatsApp>
     </>
   );
 }

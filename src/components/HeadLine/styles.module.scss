@@ -38,4 +38,14 @@
   span {
     color: #9400d3;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding-inline: 38px;
+    padding-top: 113px;
+    padding-bottom: 98px;
+    gap: 25px;
+    h1 {
+      font-size: 25px;
+    }
+  }
 }

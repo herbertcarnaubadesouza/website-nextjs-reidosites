@@ -7,6 +7,11 @@
   text-align: center;
   padding-top: 30px;
   gap: 87px;
+  font-family: var(--ff-primary);
+
+  @media only screen and (max-width: 768px) {
+    gap: 75px;
+  }
 }
 
 .firstBlock {
@@ -42,6 +47,21 @@
     max-width: 780px;
     text-align: center;
     margin-inline: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      line-height: 30px;
+      max-width: 310px;
+      margin-inline: auto;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 349px;
+    }
   }
 }
 
@@ -100,6 +120,10 @@
     color: #fff;
     cursor: pointer;
     animation: increase-size 3s linear infinite;
+
+    @media only screen and (max-width: 768px) {
+      min-width: 0;
+    }
   }
 
   &:hover {
@@ -112,6 +136,29 @@
     transform: scale(1, 1) translateY(0);
     box-shadow: none;
     transition: all 0.8s;
+  }
+
+  @media only screen and (max-width: 768px) {
+    min-width: 0;
+
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      line-height: 30px;
+      max-width: 280px;
+      margin-inline: auto;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 349px;
+      padding-inline: 8px;
+    }
+  }
+
+  button {
+    font-size: 12px;
+    padding-inline: 20px;
   }
 }
 

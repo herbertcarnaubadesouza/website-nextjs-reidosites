@@ -28,7 +28,12 @@ export default function Description() {
             <br></br>Fazemos isso através de sólidos processos metodológicos
             validados na última década.
           </p>
-          <button>QUERO SABER COMO VENDER MAIS</button>
+          <a
+            rel="noreferrer"
+            href="https://api.whatsapp.com/send?phone=5511957978876&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20um%20site!"
+          >
+            <button>QUERO SABER COMO VENDER MAIS</button>
+          </a>
         </div>
       </section>
     </>

@@ -26,12 +26,27 @@
     max-width: 685px;
     line-height: 45px;
   }
+
+  @media only screen and (max-width: 768px) {
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+      max-width: 310px;
+      margin-inline: auto;
+    }
+  }
 }
 
 .depoimentContainer {
   display: flex;
   align-items: center;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    .arrow {
+      display: none;
+    }
+  }
 }
 
 .contentDepoiment {
@@ -45,6 +60,11 @@
   padding-block: 44px;
   max-width: 610px;
   transition: opacity 0.2s ease-in-out;
+
+  @media only screen and (max-width: 768px) {
+    max-width: 340px;
+    height: 340px;
+  }
 }
 
 .userInfoBlock {
@@ -89,4 +109,15 @@
 
 .arrow {
   cursor: pointer;
+}
+
+.arrowsMobile {
+  display: none;
+  align-items: center;
+  gap: 150px;
+  margin-inline: auto;
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
 }

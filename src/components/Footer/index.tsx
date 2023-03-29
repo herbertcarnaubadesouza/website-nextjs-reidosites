@@ -22,7 +22,12 @@ export default function Footer() {
               {" "}
               Sua <span>satisfação é completamente assegurada.</span>
             </p>
-            <button>QUERO ALAVANCAR MINHAS VENDAS</button>
+            <a
+              rel="noreferrer"
+              href="https://api.whatsapp.com/send?phone=5511957978876&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20um%20site!"
+            >
+              <button>QUERO ALAVANCAR MINHAS VENDAS</button>
+            </a>
           </div>
         </div>
       </section>

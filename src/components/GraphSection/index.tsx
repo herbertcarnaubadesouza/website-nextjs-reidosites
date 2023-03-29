@@ -1,5 +1,6 @@
 // import required modules
 import GraphAnimation from "../LottieAnimation/GraphAnimation";
+import GraphMobileAnimation from "../LottieAnimation/GraphMobileAnimation";
 import styles from "./styles.module.scss";
 
 export default function GraphSection() {
@@ -33,6 +34,13 @@ export default function GraphSection() {
         <div className={styles.rightSide}>
           <GraphAnimation />
         </div>
+        <div className={styles.mobileRightSide}>
+          <GraphMobileAnimation />
+        </div>
+        <div className={styles.mobileYLine}></div>
+        <div className={styles.firstSecond}></div>
+        <div className={styles.firstThird}></div>
+        <div className={styles.firstFourth}></div>
       </section>
     </>
   );
