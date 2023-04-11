@@ -31,7 +31,7 @@ export default function HowItWorksSection() {
                 Totalmente <span>Personalizado</span>
               </h4>
               <p>
-                Nós trabalharemos em estreita colaboração com você para entender
+                Trabalharemos em estreita colaboração com você para entender
                 suas necessidades específicas e criar um site que reflita a
                 identidade visual e os valores de sua empresa.
               </p>
@@ -44,7 +44,7 @@ export default function HowItWorksSection() {
                 Suporte <span>e Atendimento</span>
               </h4>
               <p>
-                Nós estamos sempre disponíveis para ajudar em qualquer etapa do
+                Estamos sempre disponíveis para ajudar em qualquer etapa do
                 processo de desenvolvimento do site e, após o lançamento,
                 oferecemos suporte contínuo para garantir que tudo funcione
                 perfeitamente.

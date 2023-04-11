@@ -14,7 +14,7 @@ class MyDocument extends Document {
             property="og:title"
             content="Criação de Sites Profissionais - O Rei dos Sites"
           ></meta>
-          <meta property="og:description" content="O Rei dos Sites"></meta>
+          <meta property="og:description" content="O Rei dos Sites:"></meta>
           <meta
             property="og:image:alt"
             content="Thumbnail image for My Website"
