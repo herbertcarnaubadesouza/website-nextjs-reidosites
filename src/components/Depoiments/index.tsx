@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const testimonials = [
   {
     id: 1,
-    name: "William Costa",
+    name: "Herbert Araujo",
     date: "13.Maio, 2022",
     rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
@@ -15,42 +15,42 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Sophia Jones",
+    name: "Flavia Alessandra",
     date: "22.Abril, 2022",
     rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
     content:
-      "I am extremely satisfied with the services provided by Rei dos Sites. They helped me to create a professional and functional website for my business, and their team was always responsive and helpful.",
+      "Estou extremamente satisfeita com a parceria que fiz com O Rei dos Sites. Eles criaram um site profissional e eficiente para minha loja que me surpreendeu positivamente com suas métricas e processos totalmente alinhados com a verdadeira demanda da área de vendas.",
     image: "/images/flavia.jpeg",
   },
   {
     id: 3,
-    name: "Juan Rodriguez",
+    name: "Vitor Kuster",
     date: "06.Março, 2022",
     rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
     content:
-      "Rei dos Sites has been instrumental in helping us to establish a strong online presence for our business. Their expertise in website design and digital marketing has been invaluable.",
+      "Trabalhar com a equipe da O Rei dos Sites foi uma experiência incrível. Eles foram muito profissionais e atenciosos em todos os aspectos da criação do meu site. Eles foram capazes de capturar perfeitamente a essência da minha marca e transformá-la em um site funcional e atraente que realmente se destaca.",
     image: "/images/kuster.jpg",
   },
   {
     id: 4,
-    name: "Emma Johnson",
+    name: "Gustavo Nigre",
     date: "10.Janeiro, 2022",
     rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
     content:
-      "I was impressed with how quickly and efficiently Rei dos Sites was able to design and launch my new website. Their attention to detail and commitment to customer satisfaction is unparalleled.",
+      "Quando eu decidi criar um site para a minha empresa, eu estava um pouco apreensivo sobre como seria o processo. Mas a equipe da O Rei dos Sites fez tudo parecer tão fácil! Eles foram muito profissionais e experientes em todo o processo, desde a concepção até a entrega final do site.",
     image: "/images/nigre.jpeg",
   },
   {
     id: 5,
-    name: "Mohammed Ahmed",
+    name: "Rodrigo Silverio",
     date: "25.Novembro, 2021",
     rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
     content:
-      "Rei dos Sites exceeded my expectations in every way. They helped me to create a beautiful and functional website for my business, and their ongoing support has been invaluable.",
+      "Trabalhar com a equipe da O Rei dos Sites foi uma experiência muito gratificante. Eles foram muito atenciosos e prestativos durante todo o processo de criação do meu site. Eles me mantiveram informado em cada etapa do projeto e foram muito ágeis em responder a todas as minhas perguntas e solicitações.",
     image: "/images/rodrigoStig.jpeg",
   },
 ];

@@ -13,7 +13,7 @@ export default function GraphSection() {
           </h2>
           <ul>
             <li>
-              Se a resposta for <span>não</span>, o método de desenvolvimento do
+              Se a resposta for <span>NÃO</span>, o método de desenvolvimento do
               Rei dos Sites pode te ajudar.
             </li>
             <li>
