@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <>
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
-        <img className={styles.logo} src="/images/logoSVG.webp" alt="O Rei dos Sites"></img>
+        <img className={styles.logo} src="/images/logoSVG.png" alt="O Rei dos Sites"></img>
       </header>
       <div
         className={styles.progressBar}

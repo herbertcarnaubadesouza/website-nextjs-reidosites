@@ -8,50 +8,50 @@ const testimonials = [
     name: "Herbert Araujo",
     date: "13.Maio, 2022",
     rating: "/images/stars.png",
-    verified: "/images/verificationLogo.webp",
+    verified: "/images/verificationLogo.png",
     content:
       "O Rei dos Sites me surpreendeu muito com suas métricas e processos totalmente alinhados com a verdadeira demanda da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!",
-    image: "/images/hebert-araujo.webp",
+    image: "/images/hebert-araujo.jpg",
   },
   {
     id: 2,
     name: "Flavia Alessandra",
     date: "22.Abril, 2022",
     rating: "/images/stars.png",
-    verified: "/images/verificationLogo.webp",
+    verified: "/images/verificationLogo.png",
     content:
       "Estou extremamente satisfeita com a parceria que fiz com O Rei dos Sites. Eles criaram um site profissional e eficiente para minha loja que me surpreendeu positivamente com suas métricas e processos totalmente alinhados com a verdadeira demanda da área de vendas.",
-    image: "/images/flavia.webp",
+    image: "/images/flavia.jpeg",
   },
   {
     id: 3,
     name: "Vitor Kuster",
     date: "06.Março, 2022",
     rating: "/images/stars.png",
-    verified: "/images/verificationLogo.webp",
+    verified: "/images/verificationLogo.png",
     content:
       "Trabalhar com a equipe da O Rei dos Sites foi uma experiência incrível. Eles foram muito profissionais e atenciosos em todos os aspectos da criação do meu site. Eles foram capazes de capturar perfeitamente a essência da minha marca e transformá-la em um site funcional e atraente que realmente se destaca.",
-    image: "/images/kuster.webp",
+    image: "/images/kuster.jpg",
   },
   {
     id: 4,
     name: "Gustavo Nigre",
     date: "10.Janeiro, 2022",
-    rating: "/images/stars.webp",
+    rating: "/images/stars.png",
     verified: "/images/verificationLogo.png",
     content:
       "Quando eu decidi criar um site para a minha empresa, eu estava um pouco apreensivo sobre como seria o processo. Mas a equipe da O Rei dos Sites fez tudo parecer tão fácil! Eles foram muito profissionais e experientes em todo o processo, desde a concepção até a entrega final do site.",
-    image: "/images/nigre.webp",
+    image: "/images/nigre.jpeg",
   },
   {
     id: 5,
     name: "Rodrigo Silverio",
     date: "25.Novembro, 2021",
     rating: "/images/stars.png",
-    verified: "/images/verificationLogo.webp",
+    verified: "/images/verificationLogo.png",
     content:
       "Trabalhar com a equipe da O Rei dos Sites foi uma experiência muito gratificante. Eles foram muito atenciosos e prestativos durante todo o processo de criação do meu site. Eles me mantiveram informado em cada etapa do projeto e foram muito ágeis em responder a todas as minhas perguntas e solicitações.",
-    image: "/images/rodrigoStig.webp",
+    image: "/images/rodrigoStig.jpeg",
   },
 ];
 
@@ -75,14 +75,14 @@ export default function Depoiments() {
       <div className={styles.depoimentContainerSection}>
         <img
           className={styles.iconeRoxo}
-          src="/images/iconeVoltaRoxa.webp"
+          src="/images/iconeVoltaRoxa.png"
           alt="O Rei dos Sites"
         ></img>
         <h3>O QUE NOSSOS CLIENTES DIZEM</h3>
         <div className={styles.depoimentContainer}>
           <img
             className={`${styles.arrow} ${styles.leftArrow}`}
-            src="/images/ArrowSection.webp"
+            src="/images/ArrowSection.png"
             alt="O Rei dos Sites"
             onClick={previousTestimonial}
           ></img>
@@ -106,13 +106,13 @@ export default function Depoiments() {
             </div>
             <img
               className={styles.googleImage}
-              src="/images/googleImage.webp"
+              src="/images/googleImage.png"
               alt="O Rei dos Sites"
             ></img>
           </div>
           <img
             className={`${styles.arrow} ${styles.rightArrow}`}
-            src="/images/ArrowSectionRight.webp"
+            src="/images/ArrowSectionRight.png"
             alt="O Rei dos Sites"
             onClick={nextTestimonial}
           ></img>
@@ -120,13 +120,13 @@ export default function Depoiments() {
         <div className={styles.arrowsMobile}>
           <img
             className={`${styles.arrow} ${styles.leftArrow}`}
-            src="/images/ArrowSection.webp"
+            src="/images/ArrowSection.png"
             alt="O Rei dos Sites"
             onClick={previousTestimonial}
           ></img>
           <img
             className={`${styles.arrow} ${styles.rightArrow}`}
-            src="/images/ArrowSectionRight.webp"
+            src="/images/ArrowSectionRight.png"
             alt="O Rei dos Sites"
             onClick={nextTestimonial}
           ></img>

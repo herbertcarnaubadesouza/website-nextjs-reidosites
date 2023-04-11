@@ -40,12 +40,12 @@ export default function BannerImage() {
           <section className={styles.image}>
             <img
               className={styles.imageBanner}
-              src="/images/backgroundRei.webp"
+              src="/images/backgroundRei.png"
               alt="O Rei dos Sites"
             />
             <img
               className={styles.close}
-              src="/images/close.webp"
+              src="/images/close.png"
               alt="O Rei dos Sites"
               onClick={handleBannerClose}
 
@@ -54,12 +54,12 @@ export default function BannerImage() {
           <section className={styles.imageMobile}>
             <img
               className={styles.imageBanner}
-              src="/images/backgroundReiMobile.webp"
+              src="/images/backgroundReiMobile.png"
               alt="O Rei dos Sites"
             />
             <img
               className={styles.close}
-              src="/images/close.webp"
+              src="/images/close.png"
               onClick={handleBannerClose}
               alt="O Rei dos Sites"
             />
