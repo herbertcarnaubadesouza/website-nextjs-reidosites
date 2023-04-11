@@ -1,4 +1,5 @@
 import AlertSection from "@/components/AlertSection";
+import BannerImage from "@/components/BannerImage";
 import CancelSection from "@/components/CancelSection";
 import Depoiments from "@/components/Depoiments";
 import Description from "@/components/DescriptionSection";
@@ -26,6 +27,7 @@ export default function Home() {
       <CancelSection></CancelSection>
       <Footer></Footer>
       <WhatsApp></WhatsApp>
+      <BannerImage></BannerImage>
     </>
   );
 }

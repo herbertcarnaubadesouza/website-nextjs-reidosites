@@ -21,7 +21,7 @@ export default function HowItWorksSection() {
               </h4>
               <p>
                 Nós temos anos de experiência em desenvolvimento de sites e já
-                ajudamos mais de 100 clientes a atingirem seus objetivos online.{" "}
+                ajudamos mais de 200 clientes a atingirem seus objetivos online.{" "}
               </p>
             </div>
             <div className={styles.containerIcon}>

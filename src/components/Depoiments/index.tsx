@@ -11,7 +11,7 @@ const testimonials = [
     verified: "/images/verificationLogo.png",
     content:
       "O Rei dos Sites me surpreendeu muito com suas métricas e processos totalmente alinhados com a verdadeira demanda da área de vendas de qualquer empresa que sempre será VENDER MAIS ! SHOW!!!!",
-    image: "/images/william.png",
+    image: "/images/hebert-araujo.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
     verified: "/images/verificationLogo.png",
     content:
       "I am extremely satisfied with the services provided by Rei dos Sites. They helped me to create a professional and functional website for my business, and their team was always responsive and helpful.",
-    image: "/images/cliente2.png",
+    image: "/images/flavia.jpeg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const testimonials = [
     verified: "/images/verificationLogo.png",
     content:
       "Rei dos Sites has been instrumental in helping us to establish a strong online presence for our business. Their expertise in website design and digital marketing has been invaluable.",
-    image: "/images/cliente3.png",
+    image: "/images/kuster.jpg",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const testimonials = [
     verified: "/images/verificationLogo.png",
     content:
       "I was impressed with how quickly and efficiently Rei dos Sites was able to design and launch my new website. Their attention to detail and commitment to customer satisfaction is unparalleled.",
-    image: "/images/cliente4.png",
+    image: "/images/nigre.jpeg",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const testimonials = [
     verified: "/images/verificationLogo.png",
     content:
       "Rei dos Sites exceeded my expectations in every way. They helped me to create a beautiful and functional website for my business, and their ongoing support has been invaluable.",
-    image: "/images/cliente5.png",
+    image: "/images/rodrigoStig.jpeg",
   },
 ];
 

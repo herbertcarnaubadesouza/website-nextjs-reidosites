@@ -1,0 +1,63 @@
+.image {
+  position: relative;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.imageBanner {
+  position: fixed;
+  top: 22%;
+  width: 1000px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10px;
+  transition: opacity 1s ease-in-out;
+
+  &.show {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 768px) {
+    top: 12%;
+    width: 350px;
+  }
+}
+
+.close {
+  position: fixed;
+  top: 23%;
+  right: 0;
+  left: 920px;
+  width: 60px;
+  margin: auto;
+  object-fit: cover;
+  cursor: pointer;
+
+  @media only screen and (max-width: 768px) {
+    top: 14%;
+    left: 290px;
+    width: 40px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.imageMobile {
+  position: relative;
+  display: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}

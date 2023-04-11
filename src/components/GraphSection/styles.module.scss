@@ -103,12 +103,15 @@
 }
 
 .rightSide {
-  margin-left: -100px;
-  opacity: 25%;
+  position: absolute;
+  right: 0;
+  opacity: 15%;
+  right: max(0px, (100% - 1600px) / 2);
+  min-width: 950px;
 
   svg {
-    width: 320px;
-    height: 320px;
+    min-width: 320px;
+    min-height: 320px;
   }
 
   @media only screen and (max-width: 768px) {

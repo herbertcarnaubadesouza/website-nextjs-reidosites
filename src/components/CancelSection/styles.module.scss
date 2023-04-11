@@ -67,8 +67,12 @@
 
 .rightSide {
   opacity: 25%;
+  position: absolute;
+  right: 0;
+  right: max(0px, (100% - 1440px) / 2);
+  margin-right: 81px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1232px) {
     display: none;
   }
 }
