@@ -54,7 +54,7 @@ export default function FormSection() {
         </div>
         <div className={styles.formSection}>
           <div className={styles.leftSection}>
-            <img className={styles.logo} src="/images/reifoto.png"></img>
+            <img className={styles.logo} src="/images/reifoto.webp" alt="O Rei dos Sites"></img>
           </div>
           <div className={styles.rightSection}>
             <form className={styles.form} onSubmit={handleSubmit}>
@@ -127,7 +127,7 @@ export default function FormSection() {
           </div>
           <img
             className={styles.sombraRoxo}
-            src="/images/sombraRoxo .png"
+            src="/images/sombraRoxo .webp"
           ></img>
         </div>
       </section>

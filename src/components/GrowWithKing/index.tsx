@@ -73,9 +73,9 @@ export default function GrowWithKing() {
                 <h2 className={styles.title}>Copywriter</h2>
                 <div className={styles.icon}>
                   {copywriterOpen ? (
-                    <img src="/images/Vector.svg"></img>
+                    <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg"></img>
+                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
                   )}
                 </div>
               </div>
@@ -99,9 +99,9 @@ export default function GrowWithKing() {
                 <h2 className={styles.title}>Designer Gráfico</h2>
                 <div className={styles.icon}>
                   {designerOpen ? (
-                    <img src="/images/Vector.svg"></img>
+                    <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg"></img>
+                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
                   )}
                 </div>
               </div>
@@ -124,9 +124,9 @@ export default function GrowWithKing() {
                 <h2 className={styles.title}>Especialista em SEO</h2>
                 <div className={styles.icon}>
                   {seoOpen ? (
-                    <img src="/images/Vector.svg"></img>
+                    <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg"></img>
+                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
                   )}
                 </div>
               </div>
@@ -149,9 +149,9 @@ export default function GrowWithKing() {
                 <h2 className={styles.title}>Gestor de tráfego</h2>
                 <div className={styles.icon}>
                   {trafficOpen ? (
-                    <img src="/images/Vector.svg"></img>
+                    <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg"></img>
+                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
                   )}
                 </div>
               </div>

@@ -33,12 +33,13 @@ export default function Footer() {
       </section>
       <section className={styles.lastBlock}>
         <div className={styles.footerLastBlockContent}>
-          <img className={styles.logo} src="/images/logoSVG.png"></img>
+          <img className={styles.logo} src="/images/logoSVG.webp" alt="O Rei dos Sites"></img>
           <p>2023 © Todos os direitos reservados | Rei dos Sites</p>
           <div className={styles.rightSide}>
             <img
               className={styles.topArrow}
               src="/images/topArrow.svg"
+              alt="O Rei dos Sites"
               onClick={handleTopArrowClick}
             ></img>
             <span>Retornar ao topo</span>
