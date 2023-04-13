@@ -75,7 +75,10 @@ export default function GrowWithKing() {
                   {copywriterOpen ? (
                     <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
+                    <img
+                      src="/images/VectorClosed.svg"
+                      alt="O Rei dos Sites"
+                    ></img>
                   )}
                 </div>
               </div>
@@ -101,7 +104,10 @@ export default function GrowWithKing() {
                   {designerOpen ? (
                     <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
+                    <img
+                      src="/images/VectorClosed.svg"
+                      alt="O Rei dos Sites"
+                    ></img>
                   )}
                 </div>
               </div>
@@ -126,7 +132,10 @@ export default function GrowWithKing() {
                   {seoOpen ? (
                     <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
+                    <img
+                      src="/images/VectorClosed.svg"
+                      alt="O Rei dos Sites"
+                    ></img>
                   )}
                 </div>
               </div>
@@ -151,7 +160,10 @@ export default function GrowWithKing() {
                   {trafficOpen ? (
                     <img src="/images/Vector.svg" alt="O Rei dos Sites"></img>
                   ) : (
-                    <img src="/images/VectorClosed.svg" alt="O Rei dos Sites"></img>
+                    <img
+                      src="/images/VectorClosed.svg"
+                      alt="O Rei dos Sites"
+                    ></img>
                   )}
                 </div>
               </div>
@@ -173,7 +185,7 @@ export default function GrowWithKing() {
           rel="noreferrer"
           href="https://api.whatsapp.com/send?phone=5511957978876&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20um%20site!"
         >
-          <button>QUERO CRESCER MAIS</button>
+          <button id="crescer-mais-button">QUERO CRESCER MAIS</button>
         </a>
       </section>
     </>

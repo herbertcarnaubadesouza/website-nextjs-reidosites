@@ -10,6 +10,7 @@ import GrowWithKing from "@/components/GrowWithKing";
 import Header from "@/components/Header";
 import HeadLine from "@/components/HeadLine";
 import HowItWorksSection from "@/components/HowItWorksSection";
+import PrivacyPolicy from "@/components/PrivacyPolicy";
 import WhatsApp from "@/components/WhatsApp";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Footer></Footer>
       <WhatsApp></WhatsApp>
       <BannerImage></BannerImage>
+      <PrivacyPolicy></PrivacyPolicy>
     </>
   );
 }

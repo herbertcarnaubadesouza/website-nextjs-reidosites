@@ -1,0 +1,60 @@
+.privacySection {
+  background: rgb(214, 214, 214);
+  position: fixed;
+  bottom: 0px;
+  padding: 1.5rem;
+  left: 0px;
+  right: 0px;
+  z-index: 1800;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  button {
+    width: 130px;
+    max-height: 53px;
+    background: #9400d3;
+    clip-path: polygon(
+      8px 0%,
+      80% 0%,
+      100% 0px,
+      100% 84.9057%,
+      93.3333% 100%,
+      0px 100%,
+      0% 80%,
+      0% 8px
+    );
+    font-size: 16px;
+    overflow: hidden;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    gap: 1rem;
+    justify-content: center !important;
+    border: none;
+  }
+
+  p {
+    font-family: var(--ff-primary);
+    line-height: 1.625;
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(16, 16, 16);
+  }
+
+  a {
+    text-decoration: underline;
+    transition: color 250ms ease 0s;
+    color: #9400d3 !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 1rem;
+    p {
+      font-size: 15px;
+    }
+  }
+}

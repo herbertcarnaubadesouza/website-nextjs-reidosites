@@ -26,14 +26,20 @@ export default function Footer() {
               rel="noreferrer"
               href="https://api.whatsapp.com/send?phone=5511957978876&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20um%20site!"
             >
-              <button>QUERO ALAVANCAR MINHAS VENDAS</button>
+              <button id="alavancar-vendas-button">
+                QUERO ALAVANCAR MINHAS VENDAS
+              </button>
             </a>
           </div>
         </div>
       </section>
       <section className={styles.lastBlock}>
         <div className={styles.footerLastBlockContent}>
-          <img className={styles.logo} src="/images/logoSVG.png" alt="O Rei dos Sites"></img>
+          <img
+            className={styles.logo}
+            src="/images/logoSVG.png"
+            alt="O Rei dos Sites"
+          ></img>
           <p>2023 © Todos os direitos reservados | Rei dos Sites</p>
           <div className={styles.rightSide}>
             <img
