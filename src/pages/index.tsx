@@ -1,17 +1,17 @@
-import AlertSection from "@/components/AlertSection";
-import BannerImage from "@/components/BannerImage";
-import CancelSection from "@/components/CancelSection";
-import Depoiments from "@/components/Depoiments";
-import Description from "@/components/DescriptionSection";
-import Footer from "@/components/Footer";
-import FormSection from "@/components/FormSection";
-import GraphSection from "@/components/GraphSection";
-import GrowWithKing from "@/components/GrowWithKing";
-import Header from "@/components/Header";
-import HeadLine from "@/components/HeadLine";
-import HowItWorksSection from "@/components/HowItWorksSection";
-import PrivacyPolicy from "@/components/PrivacyPolicy";
-import WhatsApp from "@/components/WhatsApp";
+import AlertSection from "@/components/Home/AlertSection";
+import BannerImage from "@/components/Home/BannerImage";
+import CancelSection from "@/components/Home/CancelSection";
+import Depoiments from "@/components/Home/Depoiments";
+import Description from "@/components/Home/DescriptionSection";
+import Footer from "@/components/Home/Footer";
+import FormSection from "@/components/Home/FormSection";
+import GraphSection from "@/components/Home/GraphSection";
+import GrowWithKing from "@/components/Home/GrowWithKing";
+import HeadLine from "@/components/Home/HeadLine";
+import Header from "@/components/Home/Header";
+import HowItWorksSection from "@/components/Home/HowItWorksSection";
+import PrivacyPolicy from "@/components/Home/PrivacyPolicy";
+import WhatsApp from "@/components/Home/WhatsApp";
 
 export default function Home() {
   return (

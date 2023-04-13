@@ -1,5 +1,5 @@
 // import required modules
-import FooterAnimation from "../LottieAnimation/FooterAnimation";
+import FooterAnimation from "../../LottieAnimation/FooterAnimation";
 import styles from "./styles.module.scss";
 export default function Footer() {
   const handleTopArrowClick = () => {

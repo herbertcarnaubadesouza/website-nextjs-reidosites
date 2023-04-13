@@ -1,6 +1,6 @@
 // import required modules
-import GraphAnimation from "../LottieAnimation/GraphAnimation";
-import GraphMobileAnimation from "../LottieAnimation/GraphMobileAnimation";
+import GraphAnimation from "../../LottieAnimation/GraphAnimation";
+import GraphMobileAnimation from "../../LottieAnimation/GraphMobileAnimation";
 import styles from "./styles.module.scss";
 
 export default function GraphSection() {

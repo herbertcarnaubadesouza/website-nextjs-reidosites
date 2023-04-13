@@ -1,7 +1,7 @@
 // import required modules
-import AlertAnimation from "../LottieAnimation/AlertAnimation";
-import AlertAnimationMobile from "../LottieAnimation/AlertAnimationMobile";
-import MiniAlertAnimation from "../LottieAnimation/MiniAlertSection";
+import AlertAnimation from "../../LottieAnimation/AlertAnimation";
+import AlertAnimationMobile from "../../LottieAnimation/AlertAnimationMobile";
+import MiniAlertAnimation from "../../LottieAnimation/MiniAlertSection";
 import styles from "./styles.module.scss";
 export default function AlertSection() {
   return (

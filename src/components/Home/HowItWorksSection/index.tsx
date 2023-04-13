@@ -1,8 +1,8 @@
 // import required modules
-import ClientAnimation from "../LottieAnimation/ClientAnimation";
-import ConfigAnimation from "../LottieAnimation/ConfigAnimation";
-import IncreaseAnimation from "../LottieAnimation/IncreaseAnimation";
-import ReactAnimation from "../LottieAnimation/ReactAnimation";
+import ClientAnimation from "../../LottieAnimation/ClientAnimation";
+import ConfigAnimation from "../../LottieAnimation/ConfigAnimation";
+import IncreaseAnimation from "../../LottieAnimation/IncreaseAnimation";
+import ReactAnimation from "../../LottieAnimation/ReactAnimation";
 import styles from "./styles.module.scss";
 
 export default function HowItWorksSection() {

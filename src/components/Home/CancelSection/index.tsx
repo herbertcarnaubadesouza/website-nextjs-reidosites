@@ -1,6 +1,6 @@
 // import required modules
-import CheckAnimation from "../LottieAnimation/CheckAnimation";
-import CheckAnimationMobile from "../LottieAnimation/CheckAnimationMobile";
+import CheckAnimation from "../../LottieAnimation/CheckAnimation";
+import CheckAnimationMobile from "../../LottieAnimation/CheckAnimationMobile";
 import styles from "./styles.module.scss";
 
 export default function CancelSection() {
