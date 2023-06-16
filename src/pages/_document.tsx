@@ -5,13 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          {/* Início da tag do Google Tag Manager */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-M4DXC7H');`,
-            }}
-          />
-          {/* Fim da tag do Google Tag Manager */}
           <meta
             name="description"
             content="Criação de sites profissionais e personalizados para empresas. Transforme a presença digital da sua empresa com a ajuda do Rei dos Sites."
@@ -24,20 +17,38 @@ class MyDocument extends Document {
           <meta property="og:description" content="O Rei dos Sites:"></meta>
           <meta property="og:image:alt" content="O Rei do Sites" />
           <title>Criação de Sites Profissionais - O Rei dos Sites</title>
+
+          {/* Facebook Pixel Code */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '786995626366265');
+              fbq('track', 'PageView');
+              `,
+            }}
+          />
+          {/* End Facebook Pixel Code */}
         </Head>
         <body>
-          {/* Início da tag do Google Tag Manager (noscript) */}
-          <noscript>
-            <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-M4DXC7H"
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            ></iframe>
-          </noscript>
-          {/* Fim da tag do Google Tag Manager (noscript) */}
           <Main />
           <NextScript />
+          {/* Facebook Pixel Code No Script*/}
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html: `<img height="1" width="1" style="display:none"
+              src="https://www.facebook.com/tr?id=786995626366265&ev=PageView&noscript=1"
+              />`,
+            }}
+          />
+          {/* End Facebook Pixel Code No Script*/}
         </body>
       </Html>
     );
