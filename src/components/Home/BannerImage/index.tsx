@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 
@@ -38,25 +39,30 @@ export default function BannerImage() {
       {showBanner && (
         <div className={styles.overlay}>
           <section className={styles.image}>
-            <img
-              className={styles.imageBanner}
-              src="/images/backgroundRei.png"
-              alt="O Rei dos Sites"
-            />
+            <Link href="https://wa.link/1c73zl" className={styles.container}>
+              <img src="/Logo.gif" className={styles.logo} />
+              <img
+                className={styles.imageBanner}
+                src="/preguica3.svg"
+                alt="O Rei dos Sites"
+              />
+            </Link>
             <img
               className={styles.close}
               src="/images/close.png"
               alt="O Rei dos Sites"
               onClick={handleBannerClose}
-
             />
           </section>
           <section className={styles.imageMobile}>
-            <img
-              className={styles.imageBanner}
-              src="/images/backgroundReiMobile.png"
-              alt="O Rei dos Sites"
-            />
+            <Link href="https://wa.link/1c73zl" className={styles.container}>
+              <img src="/Logo.gif" className={styles.logo} />
+              <img
+                className={styles.imageBanner}
+                src="/preguicaCelular.svg"
+                alt="O Rei dos Sites"
+              />
+            </Link>
             <img
               className={styles.close}
               src="/images/close.png"

@@ -16,7 +16,6 @@ class MyDocument extends Document {
           ></meta>
           <meta property="og:description" content="O Rei dos Sites:"></meta>
           <meta property="og:image:alt" content="O Rei do Sites" />
-          <title>Criação de Sites Profissionais - O Rei dos Sites</title>
 
           {/* Facebook Pixel Code */}
           <script
@@ -38,6 +37,8 @@ class MyDocument extends Document {
           {/* End Facebook Pixel Code */}
         </Head>
         <body>
+          <title>Criação de Sites Profissionais - O Rei dos Sites</title>
+
           <Main />
           <NextScript />
           {/* Facebook Pixel Code No Script*/}

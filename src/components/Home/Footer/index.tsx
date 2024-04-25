@@ -37,10 +37,10 @@ export default function Footer() {
         <div className={styles.footerLastBlockContent}>
           <img
             className={styles.logo}
-            src="/images/logoSVG.png"
+            src="/Logo.gif"
             alt="O Rei dos Sites"
           ></img>
-          <p>2023 © Todos os direitos reservados | Rei dos Sites</p>
+          <p>2024 © Todos os direitos reservados | Rei dos Sites</p>
           <div className={styles.rightSide}>
             <img
               className={styles.topArrow}
