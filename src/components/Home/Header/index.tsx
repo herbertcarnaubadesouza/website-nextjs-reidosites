@@ -45,7 +45,7 @@ export default function Header() {
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
         <img
           className={styles.logo}
-          src="/Logo.gif"
+          src="/logostatic.svg"
           alt="O Rei dos Sites"
         ></img>
       </header>

@@ -40,7 +40,7 @@ export default function BannerImage() {
         <div className={styles.overlay}>
           <section className={styles.image}>
             <Link href="https://wa.link/1c73zl" className={styles.container}>
-              <img src="/Logo.gif" className={styles.logo} />
+              <img src="/logostatic.svg" className={styles.logo} />
               <img
                 className={styles.imageBanner}
                 src="/preguica3.svg"
@@ -56,7 +56,7 @@ export default function BannerImage() {
           </section>
           <section className={styles.imageMobile}>
             <Link href="https://wa.link/1c73zl" className={styles.container}>
-              <img src="/Logo.gif" className={styles.logo} />
+              <img src="/logostatic.svg" className={styles.logo} />
               <img
                 className={styles.imageBanner}
                 src="/preguicaCelular.svg"

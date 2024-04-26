@@ -37,7 +37,7 @@ export default function Footer() {
         <div className={styles.footerLastBlockContent}>
           <img
             className={styles.logo}
-            src="/Logo.gif"
+            src="/logostatic.svg"
             alt="O Rei dos Sites"
           ></img>
           <p>2024 © Todos os direitos reservados | Rei dos Sites</p>
